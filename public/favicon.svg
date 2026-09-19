@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#0B4EA2"/>
+  <circle cx="32" cy="32" r="28" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.3"/>
+  <circle cx="32" cy="32" r="25" stroke="#FFFFFF" stroke-width="1.5"/>
+  <!-- AUCA Lion Profile Crown & Face Minimal Emblem -->
+  <path d="M32 14l2.5 4.5 4.5-1.5-1.5 4.5 4.5 1.5-3.5 3 2.5 4.5-5-1.5-2 4-2-4-5 1.5 2.5-4.5-3.5-3 4.5-1.5-1.5-4.5 4.5 1.5L32 14z" fill="#FFFFFF"/>
+  <path d="M24 33c0-4.4 3.6-8 8-8s8 3.6 8 8c0 3-1.7 5.7-4.2 7l1.2 3H27l1.2-3c-2.5-1.3-4.2-4-4.2-7z" fill="#FFFFFF"/>
+  <!-- AUCA Text -->
+  <text x="32" y="55" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="900" letter-spacing="1.5">AUCA</text>
+</svg>
