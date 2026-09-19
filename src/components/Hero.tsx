@@ -41,11 +41,11 @@ export const Hero: React.FC = () => {
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 pt-1 text-xs sm:text-sm font-bold">
               <div className="flex items-center gap-2 bg-white border-2 border-royal-300 text-royal-900 px-3.5 py-2 rounded-xl shadow-xs">
                 <Calendar className="w-4 h-4 text-royal-600 stroke-[2.5]" />
-                <span>Mardi (17h) & Samedi (10h)</span>
+                <span>Vendredi & Samedi • 2 Centres</span>
               </div>
               <div className="flex items-center gap-2 bg-white border-2 border-emerald-400 text-emerald-950 font-black px-3.5 py-2 rounded-xl shadow-xs">
                 <ShieldCheck className="w-4 h-4 text-emerald-600 stroke-[2.5]" />
-                <span>2 000 DA / mois</span>
+                <span>1 500 DA / mois</span>
               </div>
               <div className="flex items-center gap-2 bg-white border-2 border-amber-300 text-amber-950 font-black px-3.5 py-2 rounded-xl shadow-xs">
                 <Sparkles className="w-4 h-4 text-amber-600 stroke-[2.5]" />

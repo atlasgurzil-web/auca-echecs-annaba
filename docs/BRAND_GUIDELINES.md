@@ -91,8 +91,8 @@ Le blason officiel unique du club est conservé dans [`public/logo-auca-lion.jpg
 
 Sur chaque support officiel (site, affiche, réseaux sociaux) :
 1. **L'Entraîneur :** *Monsieur Kheir Eddine Bentboula* (ou *M. Bentboula*).
-2. **Le Tarif :** Cotisation claire : *2 000 DA / mois*.
-3. **Les Créneaux :**
-   - *Mardi* : À partir de 17h00 (séance tactique & cours).
-   - *Samedi* : À partir de 10h00 (ateliers jeunes & parties d'entraînement).
+2. **Le Tarif :** Cotisation claire : *1 500 DA / mois* (tarif unique pour tous).
+3. **Les Créneaux & Lieux (2 Centres à Annaba) :**
+   - *Centre Culturel Hachemi Smaïn (La Colonne)* : Vendredi 14h30–16h30 (Jeunes) | Samedi 16h15–18h00 (Seniors).
+   - *Centre Culturel Chahid Messaoud Allat (Cité 5 Juillet)* : Vendredi 14h30–16h15 (Moins de 17 ans).
 4. **Le Contact Téléphonique :** *0669 54 66 80* (numéro direct de l'entraîneur).

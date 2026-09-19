@@ -83,25 +83,49 @@ Phase 2
 
 ---
 
-## Phase 4 : Bloc unique consolidé Horaires, Tarifs & Finalisation
+## Phase 4 : Bloc unique initial Horaires, Tarifs & Finalisation (Obsolète)
 
-**User stories** : US-3, US-4
+*Remplacée et actualisée par les Phases 5 et 6 suite au déploiement du nouveau programme sur deux centres culturels et à la révision tarifaire.*
+
+---
+
+## Phase 5 : Données des 2 centres, Cotisation unique (1 500 DA) & Cohérence globale (SEO/FAQ)
+
+**User stories** : US-4, US-5
 
 ### Ce qu'on livre
 
-Module unifié Horaires, Tarifs, Inscription et Documents sur fond clair avec carte de cotisation mise en valeur :
-- Créneaux nets : Mardi (17h00) & Samedi (10h00).
-- Cotisation officielle : 2 000 DA / mois.
-- Pièces à fournir (Extrait de naissance, photos).
-- Grand bouton d'action téléphonique pour réserver sa place auprès de l'entraîneur.
-- Pied de page minimaliste avec rappel des coordonnées et blason au Lion.
+Modèle de données enrichi dans `src/data/clubContent.ts` avec les deux centres culturels partenaires à Annaba (adresses, repères locaux, créneaux détaillés et coordonnées), mise à jour du tarif officiel à 1 500 DA / mois, actualisation de la FAQ et des données structurées JSON-LD Schema.org dans `index.html`.
 
 ### Critères d'acceptation
 
-- [x] L'utilisateur trouve le tarif et les horaires dans un seul et même endroit sans scroller dans le vide.
-- [x] Le pied de page est épuré avec le véritable logo officiel.
-- [x] Le bouton flottant d'appel reste accessible et fluide sur mobile tout au long de la visite.
+- [x] `src/data/clubContent.ts` intègre les 2 centres (Centre Culturel Hachemi Smaïn & Centre Culturel Chahid Messaoud Allat) et le tarif unique de 1 500 DA.
+- [x] La FAQ (`FAQSection.tsx`) reflète fidèlement les nouveaux créneaux (Vendredi et Samedi) et les 2 implantations.
+- [x] Les métadonnées SEO Schema.org (`index.html`) affichent la fourchette de prix de 1 500 DZD sans aucune mention de 2 000 DZD.
 
 ## Bloquée par
 
 Phase 3
+
+---
+
+## Phase 6 : Interface utilisateur des 2 Centres Culturels & Créneaux (Hero & Section Adhésion)
+
+**User stories** : US-1, US-2, US-3, US-4, US-5
+
+### Ce qu'on livre
+
+Refonte complète du bloc d'adhésion (`RegistrationSection.tsx`) pour afficher deux cartes soignées représentant les 2 centres culturels à Annaba, leurs tranches respectives (Jeunes le vendredi, Moins de 17 ans le vendredi, Seniors le samedi en 2 groupes), leurs repères géographiques avec boutons d'itinéraire Maps, l'encadré vibrant de la cotisation unique à 1 500 DA / mois, et la mise à jour de l'en-tête du Hero (`Hero.tsx`).
+
+### Critères d'acceptation
+
+- [x] L'en-tête Hero mentionne « Vendredi & Samedi • 2 Centres à Annaba ».
+- [x] Le bloc d'adhésion affiche distinctement le Centre Culturel Hachemi Smaïn (La Colonne) et le Centre Culturel Messaoud Allat (5 Juillet - Les Hongrois).
+- [x] Tous les créneaux sont affichés de façon limpide (Vendredi 14h30-16h30 Jeunes, Samedi 16h15-18h00 Seniors, Vendredi 14h30-16h15 -17 ans).
+- [x] Le tarif de 1 500 DA / mois est mis en valeur avec clarté.
+- [x] Des liens directs vers Google Maps permettent aux familles de localiser chaque centre.
+- [x] L'application compile sans aucune erreur (`npm run build`).
+
+## Bloquée par
+
+Phase 5

@@ -1,47 +1,42 @@
 ## Problème
 
-Les visiteurs (parents d'élèves et joueurs d'échecs amateurs à Annaba) étaient confrontés à une identité visuelle dissonante marquée par d'anciens logos inadaptés et un univers sombre et doré artificiel qui ne correspondait pas à l'identité réelle du club. Cette confusion visuelle nuisait à la reconnaissance immédiate de l'association sportive et rendait la lecture des informations pratiques (tarifs, horaires, contact de l'entraîneur) moins directe et lumineuse.
+Les visiteurs du site (parents et joueurs d'échecs à Annaba) consultaient des informations obsolètes : l'ancien tarif de 2 000 DA et les anciens créneaux (mardi à 17h, samedi à 10h) ne reflètent plus l'organisation réelle du club. Les entraînements se déploient désormais sur deux infrastructures municipales distinctes à Annaba (Centre Culturel Hachemi Smaïn à La Colonne et Centre Culturel Chahid Messaoud Allat à la Cité 5 Juillet) avec un tarif mensuel unique actualisé à 1 500 DA pour tout le monde.
 
 ## Solution
 
-Une vitrine web moderne, claire et lumineuse articulée exclusivement autour du véritable blason officiel au lion d'AUCA. La mise en page adopte une harmonie épurée sur fond blanc avec des surfaces et des touches de bleu roi, alternant de grandes photos authentiques du club et des blocs de contenu synthétiques sans fioritures.
+Remplacer intégralement l'ancien programme sur l'ensemble de la plateforme par une grille claire présentant les deux centres d'entraînement partenaires à Annaba, leurs créneaux respectifs par catégorie (jeunes, seniors, moins de 17 ans), leurs repères géographiques et la cotisation officielle unique de 1 500 DA / mois.
 
 ## Utilisateur cible
 
-* **Le parent d'un enfant ou adolescent à Annaba** : recherche une école d'échecs sérieuse, reconnue et accessible ; a besoin d'identifier immédiatement le blason officiel du club, de voir l'ambiance des séances en photos réelles, de vérifier la cotisation et d'appeler l'entraîneur en un clic.
-* **L'adulte amateur ou joueur d'échecs régulier** : souhaite rejoindre les créneaux d'entraînement dans un environnement visuel clair et institutionnel sans superflu.
+* **Le parent d'un enfant ou adolescent à Annaba** : souhaite connaître les créneaux par tranche d'âge (-17 ans ou jeunes) et le centre culturel le plus proche de son domicile (La Colonne ou Les Hongrois).
+* **Le joueur adulte / senior** : cherche à rejoindre les groupes d'entraînement du samedi après-midi.
 
 ## User Stories
 
-* **US-1** : En tant que visiteur, je veux voir dès l'en-tête le véritable blason officiel au lion d'AUCA sans aucun autre logo parasite, afin d'identifier formellement le club officiel.
-* **US-2** : En tant que parent, je veux naviguer sur une interface lumineuse sur fond clair aux couleurs officielles bleu roi et blanc, afin de lire confortablement les informations sans fatigue visuelle.
-* **US-3** : En tant que parent ou joueur intéressé, je veux consulter la cotisation mensuelle de 2 000 DA et les créneaux d'entraînement (mardi à 17h, samedi à 10h) dans un bloc unique et net, afin de m'organiser rapidement.
-* **US-4** : En tant qu'utilisateur sur smartphone, je veux pouvoir joindre directement l'entraîneur Monsieur Bentboula via un bouton d'appel permanent aux couleurs du club, afin de finaliser l'inscription par téléphone.
-* **US-5** : En tant que visiteur découvrant le club, je veux voir de véritables photos des jeunes et des adultes en tournoi et à la pendule, afin de constater le sérieux des entraînements.
+* **US-1** : En tant que visiteur, je veux voir dès l'en-tête les nouveaux jours d'entraînement (Vendredi & Samedi) et la présence de deux centres à Annaba, afin d'identifier immédiatement la disponibilité du club.
+* **US-2** : En tant que parent, je veux consulter clairement les créneaux du Centre Culturel Hachemi Smaïn (Vendredi 14h30–16h30 pour les jeunes) et du Centre Culturel Allat - 5 Juillet (Vendredi 14h30–16h15 pour les -17 ans), afin de choisir l'option la plus adaptée.
+* **US-3** : En tant que joueur adulte, je veux consulter les créneaux seniors au Centre Culturel Hachemi Smaïn (Samedi 16h15–18h00), afin d'intégrer le groupe de mon niveau.
+* **US-4** : En tant qu'intéressé, je veux voir la cotisation mensuelle actualisée et unique de 1 500 DA / mois pour tous, afin de connaître le tarif officiel sans confusion avec l'ancien tarif.
+* **US-5** : En tant qu'utilisateur sur smartphone, je veux disposer d'un bouton d'appel direct vers Monsieur Bentboula (0669 54 66 80) pour valider mon groupe et mon affectation de salle.
 
 ## Critères de succès
 
-* Seul et unique blason présent sur l'ensemble de l'interface : le logo au lion AUCA en bleu et blanc.
-* Fond d'écran général en blanc pur avec des contrastes bleu roi respectant la lisibilité sur tous les écrans.
-* Temps de chargement inférieur à 1,5 seconde sur mobile et ordinateur.
-* Lancement immédiat de l'appel téléphonique vers Monsieur Bentboula au clic ou au tap sur le bouton principal.
+* Disparition totale de l'ancien tarif de 2 000 DA et des anciens créneaux (mardi 17h / samedi 10h) sur tout le site (textes, balises SEO Schema.org, FAQ).
+* Présentation nette et équilibrée des 2 sites culturels (Hachemi Smaïn à La Colonne et Messaoud Allat à la Cité 5 Juillet) avec leurs repères géographiques et liens d'accès.
+* Affichage clair de la cotisation unique de 1 500 DA / mois pour tous.
+* Appel téléphonique direct vers M. Bentboula fonctionnel en un clic.
 
 ## Hors périmètre
 
-* Aucun ancien logo, blason avec pièce de cavalier doré ou ballon de football.
-* Aucune couleur dorée ou fond sombre généralisé.
-* Aucun système de compte en ligne ou de paiement numérique.
-* Aucun formulaire complexe d'inscription en ligne.
+* Système de paiement en ligne ou de réservation de séance par calendrier web.
+* Intégration d'une carte interactive payante ou de scripts tiers lourds (seuls les liens de repérage et itinéraires directs sont retenus).
 
 ## Décisions d'implémentation
 
-* Fond blanc dominant avec cartes et encadrés légers sur fond blanc cassé et liserés discrets en bleu roi.
-* Bouton d'action principal et éléments de surbrillance en bleu roi officiel avec texte blanc net.
-* Remplacement de l'icône d'onglet par le profil du lion du club.
-* Maintien de l'intitulé officiel bilingue en arabe et en français.
-* Bouton d'appel flottant permanent sur mobile.
+* Bloc d'adhésion restructuré avec affichage distinct des deux centres d'entraînement sous forme de cartes d'établissements claires et lisibles.
+* Mention explicite des repères locaux pour rassurer les familles : La Colonne (derrière mosquée El Fourqane) et Cité 5 Juillet (Les Hongrois).
+* Centralisation des données de tarifs et de créneaux dans la structure de données partagée du club.
 
 ## Notes complémentaires
 
-* L'inscription se fait exclusivement par échange téléphonique direct avec Monsieur Bentboula (0669 54 66 80).
-* Les visuels utilisés sont exclusivement les véritables photographies des membres et des séances du club.
+* L'affectation fine des élèves dans les différents groupes (Groupe 1 / Groupe 2 le samedi) reste confirmée de vive voix par Monsieur Bentboula au premier appel téléphonique.

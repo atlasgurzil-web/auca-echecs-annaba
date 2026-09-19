@@ -92,7 +92,7 @@ export const CompetitionSection: React.FC = () => {
                 href="#adhesion"
                 className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl font-black text-xs sm:text-sm text-white bg-royal-600 hover:bg-royal-700 transition-all shadow-royal-cta active:scale-98"
               >
-                <span>Consulter les créneaux & tarifs (2 000 DA)</span>
+                <span>Consulter les créneaux & tarifs (1 500 DA)</span>
                 <span>→</span>
               </a>
 
