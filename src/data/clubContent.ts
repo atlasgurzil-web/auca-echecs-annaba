@@ -25,25 +25,68 @@ export const clubData = {
     locationNote: "Lieu et salle communiqués directement par l'entraîneur selon l'affectation par niveau.",
   },
   pricing: {
-    monthlyFee: "2 000 DA",
+    monthlyFee: "1 500 DA",
     frequency: "par mois",
     documents: [
       "Extrait de naissance",
       "Photos d'identité",
     ],
   },
+  centers: [
+    {
+      id: "hachemi-smain",
+      name: "Centre Culturel Hachemi Smaïn",
+      nameArabic: "المركز الثقافي الهاشمي سماعين",
+      district: "La Colonne (حي لاكولون)",
+      landmark: "Derrière la mosquée Al Fourqane",
+      mapUrl: "https://www.google.com/maps/search/?api=1&query=Mosquée+El+Fourqane+Annaba+La+Colonne",
+      sessions: [
+        {
+          category: "Jeunes / Enfants (الأصاغر)",
+          day: "Vendredi",
+          time: "14h30 – 16h30",
+          description: "Initiation, perfectionnement tactique et pratique encadrée.",
+          badge: "Vendredi",
+        },
+        {
+          category: "Seniors / Adultes (الأكابر)",
+          day: "Samedi",
+          time: "16h15 – 18h00",
+          description: "Entraînements avancés, analyse de variantes & jeu compétitif (Groupes 1 & 2).",
+          badge: "Samedi",
+        },
+      ],
+    },
+    {
+      id: "allat-5-juillet",
+      name: "Centre Culturel Chahid Messaoud Allat",
+      nameArabic: "المركز الثقافي الشهيد مسعود علاط",
+      district: "Cité 5 Juillet (Les Hongrois)",
+      landmark: "Maison de jeunes municipale",
+      mapUrl: "https://www.google.com/maps/search/?api=1&query=Maison+de+jeunes+Allat+Messoud+5+juillet+Annaba",
+      sessions: [
+        {
+          category: "Moins de 17 ans (-17 ans / أقل من 17 سنة)",
+          day: "Vendredi",
+          time: "14h30 – 16h15",
+          description: "Séance hebdomadaire dédiée aux adolescents et jeunes talents.",
+          badge: "Vendredi",
+        },
+      ],
+    },
+  ],
   schedules: [
     {
-      day: "Mardi",
-      time: "À partir de 17h00",
-      description: "Séances de semaine : entraînements tactiques, analyse et cours par groupe de niveau.",
-      badge: "Après-midi / Soirée",
+      day: "Vendredi",
+      time: "14h30 – 16h30",
+      description: "Séances Jeunes au Centre Culturel Hachemi Smaïn (14h30-16h30) et Moins de 17 ans au Centre Allat - 5 Juillet (14h30-16h15).",
+      badge: "Après-midi",
     },
     {
       day: "Samedi",
-      time: "À partir de 10h00",
-      description: "Matinée intensive : ateliers pour enfants et adolescents, parties libres et tournois du club.",
-      badge: "Matinée",
+      time: "16h15 – 18h00",
+      description: "Séances Adultes & Seniors au Centre Culturel Hachemi Smaïn (Groupes 1 & 2).",
+      badge: "Après-midi",
     },
   ],
   benefits: [

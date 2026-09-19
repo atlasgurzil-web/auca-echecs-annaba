@@ -21,11 +21,11 @@ export const FAQSection: React.FC = () => {
     },
     {
       question: "Les adultes débutants ou n'ayant jamais joué sont-ils acceptés ?",
-      answer: "Absolument. Les séances de semaine et du samedi regroupent les pratiquants par niveau. Les adultes qui reprennent les échecs ou découvrent les règles bénéficient d'un accompagnement patient et adapté.",
+      answer: "Absolument. Les séances du vendredi et du samedi regroupent les pratiquants par catégorie et niveau. Les adultes qui reprennent les échecs ou découvrent les règles bénéficient d'un encadrement patient et adapté le samedi après-midi.",
     },
     {
       question: "Comment organiser une première séance d'essai ?",
-      answer: "Il suffit de joindre directement Monsieur Bentboula par téléphone. Il échangera avec vous sur l'âge et le niveau du joueur pour vous indiquer le meilleur créneau (mardi ou samedi) pour votre première venue.",
+      answer: "Il suffit de joindre directement Monsieur Bentboula par téléphone. Il échangera avec vous sur l'âge et le niveau du joueur pour vous orienter vers le centre le plus adapté (Centre Culturel Hachemi Smaïn à La Colonne ou Centre Culturel Allat à la Cité 5 Juillet) et le créneau idéal (vendredi ou samedi).",
     },
   ];
 
