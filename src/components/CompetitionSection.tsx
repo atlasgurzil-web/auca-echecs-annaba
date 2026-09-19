@@ -89,7 +89,7 @@ export const CompetitionSection: React.FC = () => {
 
             <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
               <a
-                href="#adhesion"
+                href="#tarifs-inscription"
                 className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl font-black text-xs sm:text-sm text-white bg-royal-600 hover:bg-royal-700 transition-all shadow-royal-cta active:scale-98"
               >
                 <span>Consulter les créneaux & tarifs (1 500 DA)</span>

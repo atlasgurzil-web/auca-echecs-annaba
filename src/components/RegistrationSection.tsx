@@ -4,7 +4,7 @@ import { clubData } from '../data/clubContent';
 
 export const RegistrationSection: React.FC = () => {
   return (
-    <section id="adhesion" className="py-20 bg-white border-t border-slate-200 relative">
+    <section id="tarifs-inscription" className="scroll-mt-24 py-20 bg-white border-t border-slate-200 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
