@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { YouthSection } from './components/YouthSection';
@@ -9,6 +10,27 @@ import { Footer } from './components/Footer';
 import { FloatingCallButton } from './components/FloatingCallButton';
 
 export function App() {
+  useEffect(() => {
+    const scrollToHash = () => {
+      const hash = window.location.hash;
+      if (hash) {
+        // Backward compatibility if someone loads an old link with #adhesion
+        const targetId = hash === '#adhesion' ? '#tarifs-inscription' : hash;
+        const target = document.querySelector(targetId);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    };
+
+    const timer = setTimeout(scrollToHash, 150);
+    window.addEventListener('hashchange', scrollToHash);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('hashchange', scrollToHash);
+    };
+  }, []);
+
   return (
     <div className="min-h-screen bg-white text-ink-950 flex flex-col selection:bg-royal-200 selection:text-royal-900">
       <Navbar />

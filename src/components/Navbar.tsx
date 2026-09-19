@@ -19,8 +19,20 @@ export const Navbar: React.FC = () => {
     { name: 'École Jeunesse', href: '#jeunes' },
     { name: 'L’Entraîneur', href: '#coach' },
     { name: 'Compétition & Club', href: '#competition' },
-    { name: 'Horaires & Tarifs', href: '#adhesion' },
+    { name: 'Horaires & Tarifs', href: '#tarifs-inscription' },
   ];
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    if (href.startsWith('#')) {
+      e.preventDefault();
+      setIsOpen(false);
+      const target = document.querySelector(href);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+        window.history.pushState(null, '', href);
+      }
+    }
+  };
 
   return (
     <header
@@ -69,6 +81,7 @@ export const Navbar: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
+                onClick={(e) => handleNavClick(e, link.href)}
                 className="px-3.5 py-2 text-xs lg:text-sm font-bold text-ink-800 hover:text-royal-600 hover:bg-royal-50 rounded-xl transition-all duration-200"
               >
                 {link.name}
@@ -117,7 +130,7 @@ export const Navbar: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
-                onClick={() => setIsOpen(false)}
+                onClick={(e) => handleNavClick(e, link.href)}
                 className="block px-4 py-3 rounded-xl text-sm font-bold text-ink-900 hover:text-royal-600 hover:bg-royal-50 active:bg-royal-100 transition-colors"
               >
                 {link.name}
